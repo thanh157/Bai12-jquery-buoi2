@@ -1,0 +1,39 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 200px;
+    width: auto;
+    /* height: auto; */
+}
+
+
+.header {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.body {
+    display: flex;
+    /*để hiển thị ảnh cùng */
+    justify-content: center;
+}
+
+#Image {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* Biến con trỏ thành hand khi di chuột qua */
+}
+
+#icon {
+    display: none;
+}
+
+#Image:hover {
+    opacity: 0.7;
+}
